@@ -6,7 +6,7 @@ scalaVersion := "$scala_version$"
 
 libraryDependencies ++= {
 
-  object Versions {    
+  object Versions {
     val scalatest = "3.0.0"
   }
 
