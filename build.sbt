@@ -11,8 +11,14 @@ libraryDependencies ++= {
   }
 
   Seq(
+
+    // prod
+    //
+
+    // test
     "org.scalatest" %% "scalatest" % Versions.scalatest % "test"
-  )
+
+  ).map(_ withSources() withJavadoc())
 
 }
 
