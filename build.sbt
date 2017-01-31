@@ -13,7 +13,7 @@ libraryDependencies ++= {
   Seq(
 
     // prod
-    //
+    "com.iheart" %% "ficus" % "1.2.3"
 
     // test
     "org.scalatest" %% "scalatest" % Versions.scalatest % "test"
