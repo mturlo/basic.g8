@@ -1,7 +1,5 @@
 name := "$name$"
 
-version := "0.0.1-SNAPSHOT"
-
 scalaVersion := "$scala_version$"
 
 libraryDependencies ++= {
