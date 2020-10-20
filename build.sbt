@@ -5,13 +5,13 @@ scalaVersion := "$scala_version$"
 libraryDependencies ++= {
 
   object Versions {
-    val scalatest = "3.0.8"
+    val scalatest = "3.2.0"
   }
 
   Seq(
 
     // prod
-    "com.iheart" %% "ficus" % "1.4.7",
+    "com.iheart" %% "ficus" % "1.5.0",
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.2",
     "ch.qos.logback" % "logback-classic" % "1.2.3",
 
